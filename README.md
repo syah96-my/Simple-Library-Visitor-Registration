@@ -66,6 +66,24 @@ This revived legacy app includes basic hardening:
 
 Before deploying publicly, review server configuration, HTTPS, database credentials, and operational logging.
 
+## Third-Party Credits
+
+This project uses the following third-party resources:
+
+- [Bulma](https://bulma.io/) via jsDelivr CDN for CSS layout/components.
+- [Iconify](https://iconify.design/) for icon rendering.
+- [SweetAlert2](https://sweetalert2.github.io/) for the returning-visitor prompt.
+- [QRTag](https://qrtag.net/) QR image endpoint for generated visitor card QR codes.
+- [Google Fonts](https://fonts.google.com/) for Poppins, Open Sans, Quantico, and Chakra Petch.
+
+Bundled illustrative PNG icons in `assets/images/` are placeholder/demo assets. Replace them with assets you have rights to use before deploying in a branded environment.
+
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+See [LICENSE](LICENSE) for details.
+
 ## Screenshots
 
 ![Kiosk registration](screenshots/01-kiosk-registration.png)

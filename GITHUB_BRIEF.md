@@ -23,6 +23,20 @@ Default admin:
 - Username: `admin`
 - Password: `admin123`
 
+## Third-Party Credits
+
+- Bulma via jsDelivr CDN
+- Iconify
+- SweetAlert2
+- QRTag QR image endpoint
+- Google Fonts: Poppins, Open Sans, Quantico, Chakra Petch
+
+Bundled illustrative PNG icons are placeholder/demo assets.
+
+## License
+
+CC BY-NC-SA 4.0. See `LICENSE`.
+
 ## Screenshots
 
 ![Kiosk registration](screenshots/01-kiosk-registration.png)
