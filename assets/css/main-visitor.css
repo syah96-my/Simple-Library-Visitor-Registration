@@ -1,0 +1,93 @@
+        /* Import Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans:wght@400;600&display=swap');
+
+        /* Ensure full height and dark background */
+          html, body {
+            height: 100%;
+            margin: 0;
+            background-color: #4a4a4a; /* Dark Blue background */
+            
+            color: #ffffff;
+            font-family: 'Open Sans', sans-serif; /* Default font for body text */
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Center the form box */
+        .section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .title {
+            font-family: 'Poppins', sans-serif; /* Heading font */
+            font-weight: 600;
+            font-size: 1.75rem;
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+
+        .box {
+            width: 380px;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #1e2a47; /* Darker blue for the box */
+        }
+
+        .radio-list {
+            list-style-type: none;  
+            padding: 0;
+            margin: 0;
+        }
+
+        .radio-list li {
+            margin-bottom: 10px;
+        }
+
+        .radio-label {
+            margin-left: 5px;
+            margin-right: 5px; /* Space between text and icon */
+            color: #ffffff; /* Text color for the radio options */
+        }
+
+        .button {
+            margin-top: 1rem;
+            background-color: #fff944; /* Light blue color for buttons */
+            border: none;
+            border-radius: 10px;
+        }
+
+        .button:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+
+        .is-rounded {
+            border-radius: 12px;
+        }
+
+        /* Logo styling */
+        .logo {
+            display: block;
+            margin: 0 auto 1rem auto;
+            width: 260px; /* Adjust the size of the logo */
+            height: auto;
+        }
+        
+        .is-inline-flex {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px; /* Space between icon and text */
+        }
+

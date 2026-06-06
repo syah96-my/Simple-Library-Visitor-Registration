@@ -1,0 +1,21 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Runtime/local artifacts
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Dependency folders if added later
+node_modules/
+vendor/
+
+# Local environment overrides
+.env
+.env.*
+config/local.php

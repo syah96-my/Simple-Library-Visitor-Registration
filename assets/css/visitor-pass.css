@@ -1,0 +1,107 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #4a4a4a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .business2 {
+            width: 380px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .business2:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 18px 30px rgba(0, 0, 0, 0.35);
+        }
+
+        .header {
+            background-color: #2f3059;
+            color: #fff;
+            padding: 25px 25px 5px 25px;
+        }
+        
+        .header h2{
+              font-family: "Quantico", sans-serif;
+              font-weight: 700;
+              font-style: normal;
+              margin: 5px 0;
+        }
+
+
+        .avatar {
+            margin-bottom: 20px;
+            background: linear-gradient(to bottom, #2f3059 50%, white 50%);
+        }
+
+        .avatar img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            transition: transform 0.3s ease;
+            background-color: white;
+        }
+
+        .avatar img:hover {
+            transform: scale(1.1);
+        }
+
+        
+
+        .credit {
+            font-family: "Chakra Petch", sans-serif;
+            padding: 10px;
+            font-size: 1rem;
+            color: white;
+            background-color: #2f3059;
+            border-top: 1px solid #ddd;
+            
+        }
+
+        
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 260px;
+            height: auto;
+        }
+        
+    .infos {
+
+            margin: 25px;
+
+
+    }
+    .infos p {
+            text-align: left;
+            margin: 5px 40px;
+            font-size: 1rem;
+            font-family: "Chakra Petch", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+    }
+    
+    .avatar h3 {
+              font-family: "Quantico", sans-serif;
+              font-size: 1.2rem;
+              font-weight: 700;
+              font-style: normal;
+              margin: 5px 0;
+    }
+    .iconify {
+        margin: 5px;
+        color: white;
+    }
